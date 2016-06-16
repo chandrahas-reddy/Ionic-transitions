@@ -1,12 +1,7 @@
 /* Empty. Add your own CSS if you like */
 .popover{
 
-	background-color: aqua !important;
-}
-
-.popover-titlebar {
-
-	background-color: blue !important;
+	background-color: #2e7d32 !important;
 }
 
 .card-box {

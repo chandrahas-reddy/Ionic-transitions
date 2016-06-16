@@ -23,7 +23,6 @@ angular.module('transApp', ['ionic'])
     }
   });
 })
-
 .config(function($ionicConfigProvider) {
   $ionicConfigProvider.scrolling.jsScrolling(false);
  
@@ -32,6 +31,7 @@ angular.module('transApp', ['ionic'])
     // $ionicConfigProvider.scrolling.jsScrolling(false);
   // }
 })
+
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 

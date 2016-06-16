@@ -1,0 +1,88 @@
+<ion-view title="Welcome">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header use" style="background-color:#1762a1;">
+      <!--popover-->
+      <div class="pop-over">
+      <p>
+        <button ng-click="openPopover($event)">Open Popover</button>
+      </p>
+      <script id="popover.html" type="text/ng-template">
+            <ion-popover-view>
+              <ion-header-bar style="background-color:blue !important;">
+           
+           
+              <h1 class="title">Popover Title</h1>
+           
+           
+              </ion-header-bar>
+              <ion-content>
+                Hello World!
+              </ion-content>
+            </ion-popover-view>
+      </script>
+      </div>
+      <!--End of Popover-->
+
+
+      <!--content cards-->
+      <div class="card-box">
+
+          <div class="card">
+            <div class="item item-divider">
+               <span class="badge badge-calm" 
+               style="position:relative !important; float:left; margin-left:1.5em; margin-bottom:0.5em;">16 Jun</span>
+               <span class="badge badge-assertive" 
+               style="position:relative !important; float:right; margin-bottom:0.5em;">4.5</span>
+            </div>
+            <div class="item item-image">
+              <img src="img/Angularjs.png">
+            </div>
+            <div class="item item-divider">
+              <p>
+                <a href="#" class="subdued" style="float:left;">1 Like</a>
+                <a href="#" class="subdued" style="float:right;">5 Comments</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item item-divider">
+               <span class="badge badge-calm" 
+               style="position:relative !important; float:left; margin-left:1.5em; margin-bottom:0.5em;">18 Jun</span>
+               <span class="badge badge-assertive" 
+               style="position:relative !important; float:right; margin-bottom:0.5em;">0.5</span>
+            </div>
+            <div class="item item-image">
+              <img src="img/javascript.png">
+            </div>
+            <div class="item item-divider">
+              <p>
+                <a href="#" class="subdued" style="float:left;">1 Like</a>
+                <a href="#" class="subdued" style="float:right;">5 Comments</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item item-divider">
+               <span class="badge badge-calm" 
+               style="position:relative !important; float:left; margin-left:1.5em; margin-bottom:0.5em;">18 Jun</span>
+               <span class="badge badge-assertive" 
+               style="position:relative !important; float:right; margin-bottom:0.5em;">3.7</span>
+            </div>
+            <div class="item item-image">
+              <img src="img/ionic.png">
+            </div>
+            <div class="item item-divider">
+              <p>
+                <a href="#" class="subdued" style="float:left;">1 Like</a>
+                <a href="#" class="subdued" style="float:right;">5 Comments</a>
+              </p>
+            </div>
+          </div>
+      </div>
+      <!--End of cards-->
+  </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+/* Empty. Add your own CSS if you like */
+.popover{
+
+	background-color: aqua !important;
+}
+
+.popover-titlebar {
+
+	background-color: blue !important;
+}
+
+.card-box {
+
+	margin: 2em !important;
+}
+
+.item-content {
+
+	background-color:#387ef5 !important;
+	color:whitesmoke !important;
+	font-size:15px;
+}
